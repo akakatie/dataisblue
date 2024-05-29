@@ -1,0 +1,36 @@
+#body{
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  position: fixed;
+  height: calc(100vh - 50px);
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+.colContainer {
+  height: 100%;
+  display: in-line;
+}
+
+#footer {
+  text-align: right;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  font-style: italic;
+  margin: auto 10px auto 10px;
+  height: 50px;
+    font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
