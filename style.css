@@ -42,6 +42,8 @@ a:focus {
   margin: 0px;
   padding: 10px;
   background-color: aliceblue;
+    border-top: 1px solid #062865;
+  border-bottom: 1px solid #062865;
 }
 
 #content-text {
@@ -71,13 +73,12 @@ a:focus {
 
 #footer {
   background-color: aliceblue;
-
   width: 100%;
   font-style: italic;
   margin: 0;
-    font-family: "Open Sans", sans-serif;
-  font-weight: 400;
   margin-bottom: clamp(50px, 15vh, 250px);
+  border-top: 1px solid #062865;
+  border-bottom: 1px solid #062865;
 }
 
 #footer-text{
