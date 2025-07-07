@@ -6,9 +6,45 @@
   padding: 0;
 }
 
+#content-upper {
+  position: fixed;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+#content-middle {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 10px;
+  top: 0;
+}
+
+#content-middle {
+  width: 100%;
+  display: flex;
+  margin: 0;
+  top: 0;
+}
+
+#content-text {
+  max-width: 95vw;
+  width: 800px;
+  display: flex;
+  margin: 0;
+  padding: 10px;
+  top: 0;
+}
+
 #content {
   position: fixed;
-  height: calc(100vh - 50px);
+  min-height: 200px;
+  max-height: 50vh;
   width: 100%;
   display: flex;
   margin: 0;
@@ -22,7 +58,7 @@
 }
 
 #footer {
-  text-align: right;
+  text-align: left;
   bottom: 0;
   right: 0;
   position: fixed;

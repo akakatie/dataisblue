@@ -7,16 +7,18 @@ window.onload = function() {
   
   document.getElementById("sourceName").innerHTML = selectSource;
   
-  var container = document.getElementById("content");
+  var container1 = document.getElementById("content");
+  var container2 = document.getElementById("content-upper");
 
   dataColours.forEach((d,i)=> {
-    console.log((d.Percent) + "%")
      if (d.Source == selectSource){
           var colourBlock = document.createElement("div");
           colourBlock.style.background = d.hexCode;
           colourBlock.style.width = (d.Percent*100) + "%";
           colourBlock.innerHTML = "";
           colourBlock.classList.add("colContainer");
-          container.appendChild(colourBlock);}
+          container1.appendChild(colourBlock);
+          container2.appendChild(colourBlock);}
+          
 });
 }
