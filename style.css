@@ -49,20 +49,20 @@ body{
 }
 
 #footer {
-    background-color: aliceblue;
+  background-color: aliceblue;
 
   width: 100%;
   font-style: italic;
   margin: 0;
     font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  background: white;
+  margin-bottom: 100px;
 }
 
 #footer-text{
-  font-size: clamp(0.75rem, 1vw, 0.875rem);
+  height: clamp(50px, 15vh, 250px);
   max-width: 95vw;
-    text-align: left;
+  text-align: left;
   width: 800px;
   margin: auto;
   padding: 10px;
