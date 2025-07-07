@@ -20,8 +20,8 @@ window.onload = function() {
 
           var colourBlockClone = colourBlock.cloneNode(true);
 
-          container1.appendChild(colourBlock);
-          container2.appendChild(colourBlockClone);}
+          /*container1.appendChild(colourBlockClone); */
+          container2.appendChild(colourBlock);}
           
 });
 }
