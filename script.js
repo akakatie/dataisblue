@@ -17,6 +17,9 @@ window.onload = function() {
           colourBlock.style.width = (d.Percent*100) + "%";
           colourBlock.innerHTML = "";
           colourBlock.classList.add("colContainer");
+
+          var colourBlockClone = colourBlock.cloneNode(true);
+
           container1.appendChild(colourBlock);
           container2.appendChild(colourBlock);}
           
