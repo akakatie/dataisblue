@@ -1,6 +1,6 @@
 html{
     color: #151515;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
     font-family: "neue-kabel", sans-serif;
     font-weight: 300;
@@ -74,7 +74,6 @@ a:focus {
 #footer {
   background-color: aliceblue;
   width: 100%;
-  font-style: italic;
   margin: 0;
   margin-bottom: clamp(50px, 15vh, 250px);
   border-top: 1px solid #062865;
