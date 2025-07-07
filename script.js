@@ -8,7 +8,7 @@ window.onload = function() {
   document.getElementById("sourceName").innerHTML = selectSource;
   
   var container1 = document.getElementById("content");
-  var container2 = document.getElementById("content-upper");
+  var container2 = document.getElementById("content-background");
 
   dataColours.forEach((d,i)=> {
      if (d.Source == selectSource){

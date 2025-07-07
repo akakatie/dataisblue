@@ -6,7 +6,7 @@ body{
   display: block;
 }
 
-#content-upper {
+#content-background {
   height: 100%;
   width: 100%;
   display: flex;
@@ -20,6 +20,7 @@ body{
   width: 100%;
   margin: 0;
   padding: 10px 50px 10px 0px;
+  background-color: aliceblue;
 }
 
 #content-text {
@@ -35,6 +36,7 @@ body{
   display: flex;
   margin: 0;
   padding: 0;
+
 }
 
 .colContainer {
@@ -43,6 +45,7 @@ body{
 }
 
 #footer {
+    background-color: aliceblue;
   text-align: left;
   bottom: 0;
   right: 0;
