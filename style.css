@@ -18,7 +18,7 @@ body{
 
 #content-middle {
   width: 100%;
-  margin: 0px 50px 0px 50px;
+  margin: 0px;
   padding: 10px;
   background-color: aliceblue;
 }
@@ -31,12 +31,16 @@ body{
 }
 
 #content {
-  height: clamp(50px, 20vh, 300px);
+  height: clamp(50px, 30vh, 400px);
   width: 100%;
-  display: flex;
   margin: 0;
   padding: 0;
-
+}
+#content-upper {
+  height: clamp(50px, 10vh, 200px);
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .colContainer {
