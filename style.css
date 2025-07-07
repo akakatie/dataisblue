@@ -1,10 +1,4 @@
-body{
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: block;
-  font-family: sans-serif;
+html{
     color: #151515;
     font-size: 16px;
     line-height: 1.6;
@@ -12,6 +6,25 @@ body{
     font-weight: 300;
     font-style: normal;
     line-height: 1.2;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+
+}
+
+a {
+  color: #062865;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
 }
 
 #content-background {
