@@ -56,6 +56,13 @@ body{
   background: white;
 }
 
+#footer-text{
+    max-width: 95vw;
+  width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
 p {
   padding: 5px;
 }
