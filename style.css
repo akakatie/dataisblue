@@ -20,14 +20,12 @@
   display: flex;
   margin: 0;
   padding: 10px;
-  top: 0;
 }
 
 #content-middle {
   width: 100%;
   display: flex;
   margin: 0;
-  top: 0;
 }
 
 #content-text {
@@ -36,7 +34,6 @@
   display: flex;
   margin: 0;
   padding: 10px;
-  top: 0;
 }
 
 #content {
@@ -46,7 +43,6 @@
   display: flex;
   margin: 0;
   padding: 0;
-  top: 0;
 }
 
 .colContainer {
