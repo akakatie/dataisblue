@@ -40,7 +40,6 @@ a:focus {
 #content-middle {
   width: 100%;
   margin: 0px;
-  padding: 10px;
   background-color: aliceblue;
     border-top: 1px solid #062865;
   border-bottom: 1px solid #062865;
@@ -49,8 +48,7 @@ a:focus {
 #content-text {
   max-width: 95vw;
   width: 800px;
-  margin: auto;
-  padding: 10px;
+  margin: 10px auto 10px auto;
 }
 
 #content {
@@ -81,7 +79,7 @@ a:focus {
 }
 
 #footer-text{
-  font-size: clamp(0.75rem, 1vw, 0.875rem);
+  /*font-size: clamp(0.75rem, 1vw, 0.875rem);*/
   max-width: 95vw;
   text-align: left;
   width: 800px;
