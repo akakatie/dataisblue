@@ -43,6 +43,7 @@ a:focus {
   background-color: aliceblue;
     border-top: 1px solid #062865;
   border-bottom: 1px solid #062865;
+  padding: 0;
 }
 
 #content-text {
