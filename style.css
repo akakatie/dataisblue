@@ -30,7 +30,7 @@ body{
 
 #content {
   min-height: 200px;
-  max-height: 50vh;
+  height: 50vh;
   width: 100%;
   display: flex;
   margin: 0;
