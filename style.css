@@ -47,21 +47,19 @@ body{
 
 #footer {
     background-color: aliceblue;
-  text-align: left;
-  bottom: 0;
-  right: 0;
+
   width: 100%;
   font-style: italic;
-  margin: auto 10px auto 10px;
+  margin: 0;
     font-family: "Open Sans", sans-serif;
-font-size: clamp(0.75rem, 1vw, 0.875rem);
-
   font-weight: 400;
   background: white;
 }
 
 #footer-text{
+  font-size: clamp(0.75rem, 1vw, 0.875rem);
   max-width: 95vw;
+    text-align: left;
   width: 800px;
   margin: auto;
   padding: 10px;
