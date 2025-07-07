@@ -1,5 +1,4 @@
 #body{
-  display: block;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -17,22 +16,14 @@
 
 #content-middle {
   width: 100%;
-  display: flex;
   margin: 0;
   padding: 10px;
-}
-
-#content-middle {
-  width: 100%;
-  display: flex;
-  margin: 0;
 }
 
 #content-text {
   max-width: 95vw;
   width: 800px;
-  display: flex;
-  margin: 0;
+  margin: auto;
   padding: 10px;
 }
 
@@ -47,7 +38,7 @@
 
 .colContainer {
   height: 100%;
-  display: in-line;
+  display: inline;
 }
 
 #footer {
